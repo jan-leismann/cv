@@ -1,0 +1,231 @@
+/********** TAG SELECTORS **********/
+body{
+  background-color: #0b2159;
+  color: #0b2159;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  background-color: inherit;
+  color: #0b2159;
+  line-height: 1;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 6rem;
+  width: 50%;
+  margin: 40px auto 0 auto;
+}
+
+h2 {
+  background-color: inherit;
+  color: #0b2159;
+  font-family: 'Crimson Pro', serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 40px 10px;
+}
+
+h3 {
+  background-color: inherit;
+  color: #999efd;
+  font-family: 'Crimson Pro', serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 40px 10px;
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.1rem;
+}
+
+a {
+  background-color: inherit;
+  color: #999efd;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 2.2;
+}
+
+/*
+a:hover {
+  color: #4D4BF6;
+}
+*/
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #0b2159;
+    border-width: 5px;
+    height: 0;
+    width: 75%;
+}
+
+/********** CLASS SELECTORS **********/
+.top-container {
+  background-color: #999efd;
+  padding: 100px 5px 0 5px;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #fcf6f0;
+  padding: 0 5px 40px 5px;
+}
+
+.bottom-container {
+  background-color: #0b2159;
+  padding: 20px 5px 5px 5px;
+}
+
+/* .top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+} */
+
+/* .bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+} */
+
+.headline-l {
+  text-align: left;
+  margin-left: 0;
+  margin-right: 5%;
+  position: relative;
+  left: 30%;
+}
+
+.headline-s {
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 0;
+  position: relative;
+  right: 30%;
+}
+
+.btn {
+  background: #0b2159;
+  /*
+  background-image: -webkit-linear-gradient(top, #999EFD, #4D4BF6);
+  background-image: -moz-linear-gradient(top, #999EFD, #4D4BF6);
+  background-image: -ms-linear-gradient(top, #999EFD, #4D4BF6);
+  background-image: -o-linear-gradient(top, #999EFD, #4D4BF6);
+  background-image: linear-gradient(to bottom, #999EFD, #4D4BF6);
+  */
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  color: #FCF6F0;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin: 40px 0;
+  padding: 0 15px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #337FED 0;
+  background: #4D4BF6;
+  /*
+  background-image: -webkit-linear-gradient(top, #4D4BF6, #999EFD);
+  background-image: -moz-linear-gradient(top, #4D4BF6, #999EFD);
+  background-image: -ms-linear-gradient(top, #4D4BF6, #999EFD);
+  background-image: -o-linear-gradient(top, #4D4BF6, #999EFD);
+  background-image: linear-gradient(to bottom, #4D4BF6, #999EFD);
+  */
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.center-text {
+  line-height: 1.3;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.copyright {
+  color: #999efd;
+}
+
+.footer-link {
+  background-color: inherit;
+  color: #fcf6f0;
+  display: inline-block;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 2.2;
+  margin: 0 20px;
+}
+
+.footer-link:hover {
+  color: #999efd;
+}
+
+.info-l {
+  text-align: left;
+  margin-bottom: 0;
+  margin-right: 5%;
+  margin-top: 0;
+  position: relative;
+  left: 30%;
+}
+
+.info-s {
+  text-align: left;
+  margin-bottom: 0;
+  margin-left: 5%;
+  margin-top: 0;
+  position: relative;
+  right: 30%;
+}
+
+.letter-l {
+  background-color: #999efd;
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+}
+
+.letter-s {
+  background-color: #999efd;
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+}
+
+.logo {
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.profilbild {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+}
+
+.profile {
+  padding: 80px 0;
+}
+
+.skill-row {
+  line-height: 1.6;
+  margin: 100px auto 40px auto;
+  width: 50%;
+}
+
+.skills {
+  padding: 40px 0;
+}
+
+.contact-me {
+  padding: 40px 0;
+}
